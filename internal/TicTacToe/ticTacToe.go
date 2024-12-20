@@ -44,6 +44,8 @@ func CreateTicTacToeServer() {
 	if err != nil {
 		fmt.Println("Error starting Tic Tac Toe server:", err)
 	}
+
+	fmt.Println("Tic Tac Toe server is now running.")
 }
 
 // resets the board to an initial value, but keeps the original players
